@@ -1,0 +1,51 @@
+.blind {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+    margin: -1px;
+    width: 1px;
+    height: 1px;
+}
+
+.inner {
+    max-width: 1290px;
+    margin: 0 auto;
+}
+
+.default {
+    padding: 80px 0;
+}
+
+.default .title {
+
+    max-width: 1290px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.default .title h2 {
+    justify-content: center;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.default .title p {
+    justify-content: center;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 16px;
+}
+
+.default_btn {
+    display: inline-flex;
+    align-items: center;
+
+    padding: 24px;
+    width: 106px;
+    height: 32px;
+    background: #fff;
+    border: 1px solid #333;
+    white-space: nowrap;
+}
