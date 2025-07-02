@@ -76,9 +76,6 @@
     font-size: 16px;
 }
 
-#header .gnb>ul>li>ul li~li a {
-    border-top: 1px solid #ddd;
-}
 
 #header .utils {
     display: flex;
@@ -108,7 +105,7 @@
     display: flex;
     align-items: center;
     color: #fff;
-    background: #e7025a;
+    background: #e4022e;
     height: 32px;
     padding: 0 16px;
     border-radius: 20px;
@@ -171,7 +168,7 @@
     font-size: 16px;
     font-weight: 400;
     color: #fff;
-    background: #e7025a;
+    background: #e4022e;
 }
 
 
